@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_projectaula" default="compile.module.projectaula">
+  <dirname property="module.projectaula.basedir" file="${ant.file.module_projectaula}"/>
+  
+  <property name="module.jdk.home.projectaula" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.projectaula" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.projectaula" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.projectaula" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="projectaula.output.dir" value="${module.projectaula.basedir}/out/production/ProjectAula"/>
+  <property name="projectaula.testoutput.dir" value="${module.projectaula.basedir}/out/test/ProjectAula"/>
+  
+  <path id="projectaula.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="projectaula.module.production.classpath">
+    <path refid="${module.jdk.classpath.projectaula}"/>
+  </path>
+  
+  <path id="projectaula.runtime.production.module.classpath">
+    <pathelement location="${projectaula.output.dir}"/>
+  </path>
+  
+  <path id="projectaula.module.classpath">
+    <path refid="${module.jdk.classpath.projectaula}"/>
+    <pathelement location="${projectaula.output.dir}"/>
+  </path>
+  
+  <path id="projectaula.runtime.module.classpath">
+    <pathelement location="${projectaula.testoutput.dir}"/>
+    <pathelement location="${projectaula.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.projectaula">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.projectaula">
+    <patternset refid="excluded.from.module.projectaula"/>
+  </patternset>
+  
+  <path id="projectaula.module.sourcepath">
+    <dirset dir="${module.projectaula.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.projectaula" depends="compile.module.projectaula.production,compile.module.projectaula.tests" description="Compile module ProjectAula"/>
+  
+  <target name="compile.module.projectaula.production" depends="register.custom.compilers" description="Compile module ProjectAula; production classes">
+    <mkdir dir="${projectaula.output.dir}"/>
+    <javac2 destdir="${projectaula.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.projectaula}/javac">
+      <compilerarg line="${compiler.args.projectaula}"/>
+      <bootclasspath refid="projectaula.module.bootclasspath"/>
+      <classpath refid="projectaula.module.production.classpath"/>
+      <src refid="projectaula.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.projectaula"/>
+    </javac2>
+    
+    <copy todir="${projectaula.output.dir}">
+      <fileset dir="${module.projectaula.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.projectaula.tests" depends="register.custom.compilers,compile.module.projectaula.production" description="compile module ProjectAula; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.projectaula" description="cleanup module">
+    <delete dir="${projectaula.output.dir}"/>
+    <delete dir="${projectaula.testoutput.dir}"/>
+  </target>
+</project>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89601dca-a02b-4161-9254-435128dce605" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectId" id="1Ttl1U3T2ttKD0pNLtAq6hn7ALw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="cobra" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Treina_java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Aula1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projectaula.program.Aula1" />
+      <module name="ProjectAula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectaula.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projectaula.program.Calculator" />
+      <module name="ProjectAula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectaula.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projectaula.program.Game" />
+      <module name="ProjectAula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectaula.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projectaula.program.Matriz" />
+      <module name="ProjectAula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectaula.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeiroPrograma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projectaula.program.PrimeiroPrograma" />
+      <module name="ProjectAula" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projectaula.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.PrimeiroPrograma" />
+        <item itemvalue="Application.Aula1" />
+        <item itemvalue="Application.Matriz" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89601dca-a02b-4161-9254-435128dce605" name="Default Changelist" comment="" />
+      <created>1574287057314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574287057314</updated>
+      <workItem from="1574287061026" duration="803000" />
+      <workItem from="1574518043351" duration="9639000" />
+      <workItem from="1574731413433" duration="671000" />
+      <workItem from="1574823261750" duration="222000" />
+      <workItem from="1574954717114" duration="522000" />
+      <workItem from="1574956140798" duration="5874000" />
+      <workItem from="1575146940043" duration="659000" />
+      <workItem from="1575363460082" duration="1815000" />
+      <workItem from="1575638215965" duration="826000" />
+      <workItem from="1575741846564" duration="848000" />
+      <workItem from="1575772651364" duration="1334000" />
+      <workItem from="1576518680926" duration="855000" />
+      <workItem from="1576634571451" duration="162000" />
+      <workItem from="1577200619578" duration="385000" />
+      <workItem from="1577370813348" duration="4544000" />
+      <workItem from="1578364556157" duration="3030000" />
+      <workItem from="1578756743140" duration="582000" />
+      <workItem from="1578757433337" duration="1893000" />
+      <workItem from="1578834412629" duration="13177000" />
+      <workItem from="1579003536285" duration="6468000" />
+      <workItem from="1579115618222" duration="3932000" />
+      <workItem from="1579186229554" duration="1317000" />
+      <workItem from="1579194501477" duration="3516000" />
+      <workItem from="1579216133661" duration="1233000" />
+      <workItem from="1579612646476" duration="35000" />
+      <workItem from="1579612827705" duration="11508000" />
+      <workItem from="1579702516269" duration="1595000" />
+      <workItem from="1579869151921" duration="6671000" />
+      <workItem from="1581172199976" duration="13000" />
+      <workItem from="1581173329725" duration="336000" />
+      <workItem from="1581178282806" duration="853000" />
+      <workItem from="1581384241297" duration="891000" />
+      <workItem from="1581475158080" duration="382000" />
+      <workItem from="1588520428788" duration="165000" />
+      <workItem from="1594336593162" duration="616000" />
+      <workItem from="1594478894777" duration="7000" />
+      <workItem from="1594818952454" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="173" key="FileChooserDialogImpl" timestamp="1588520591853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="165" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588520591853" />
+    <state width="1478" height="226" key="GridCell.Tab.0.bottom" timestamp="1594821573235">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824/-1600.90.1600.860@0.0.1536.824" timestamp="1594821573235" />
+    <state width="1478" height="226" key="GridCell.Tab.0.center" timestamp="1594821573234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="226" key="GridCell.Tab.0.center/0.0.1536.824/-1600.90.1600.860@0.0.1536.824" timestamp="1594821573234" />
+    <state width="1478" height="226" key="GridCell.Tab.0.left" timestamp="1594821573234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="226" key="GridCell.Tab.0.left/0.0.1536.824/-1600.90.1600.860@0.0.1536.824" timestamp="1594821573234" />
+    <state width="1478" height="226" key="GridCell.Tab.0.right" timestamp="1594821573234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="226" key="GridCell.Tab.0.right/0.0.1536.824/-1600.90.1600.860@0.0.1536.824" timestamp="1594821573234" />
+  </component>
+</project>
